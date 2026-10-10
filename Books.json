@@ -1,0 +1,562 @@
+[
+    {
+        "Book_id": 1,
+        "Book_name": "Dune",
+        "Book_author_id": 41,
+        "Book_category_id": 26,
+        "Book_copies": 1,
+        "Book_status": "available"
+    },
+    {
+        "Book_id": 2,
+        "Book_name": "Ulysses",
+        "Book_author_id": 66,
+        "Book_category_id": 18,
+        "Book_copies": 1,
+        "Book_status": "not available"
+    },
+    {
+        "Book_id": 3,
+        "Book_name": "Life of Pi",
+        "Book_author_id": 23,
+        "Book_category_id": 2,
+        "Book_copies": 1,
+        "Book_status": "available"
+    },
+    {
+        "Book_id": 4,
+        "Book_name": "The Odyssey",
+        "Book_author_id": 2,
+        "Book_category_id": 4,
+        "Book_copies": 1,
+        "Book_status": "not available"
+    },
+    {
+        "Book_id": 5,
+        "Book_name": "Pride and Prejudice",
+        "Book_author_id": 73,
+        "Book_category_id": 19,
+        "Book_copies": 1,
+        "Book_status": "available"
+    },
+    {
+        "Book_id": 6,
+        "Book_name": "Catch-22",
+        "Book_author_id": 46,
+        "Book_category_id": 15,
+        "Book_copies": 1,
+        "Book_status": "not available"
+    },
+    {
+        "Book_id": 7,
+        "Book_name": "The Alchemist",
+        "Book_author_id": 8,
+        "Book_category_id": 13,
+        "Book_copies": 1,
+        "Book_status": "available"
+    },
+    {
+        "Book_id": 8,
+        "Book_name": "Alice in Wonderland",
+        "Book_author_id": 47,
+        "Book_category_id": 20,
+        "Book_copies": 1,
+        "Book_status": "not available"
+    },
+    {
+        "Book_id": 9,
+        "Book_name": "Invisible Man",
+        "Book_author_id": 75,
+        "Book_category_id": 7,
+        "Book_copies": 1,
+        "Book_status": "not available"
+    },
+    {
+        "Book_id": 10,
+        "Book_name": "Harry Potter and th",
+        "Book_author_id": 65,
+        "Book_category_id": 7,
+        "Book_copies": 1,
+        "Book_status": "not available"
+    },
+    {
+        "Book_id": 11,
+        "Book_name": "The Kite Runner",
+        "Book_author_id": 33,
+        "Book_category_id": 3,
+        "Book_copies": 1,
+        "Book_status": "available"
+    },
+    {
+        "Book_id": 12,
+        "Book_name": "Homo Deus",
+        "Book_author_id": 66,
+        "Book_category_id": 16,
+        "Book_copies": 1,
+        "Book_status": "not available"
+    },
+    {
+        "Book_id": 13,
+        "Book_name": "War and Peace",
+        "Book_author_id": 58,
+        "Book_category_id": 14,
+        "Book_copies": 1,
+        "Book_status": "available"
+    },
+    {
+        "Book_id": 14,
+        "Book_name": "Outliers",
+        "Book_author_id": 25,
+        "Book_category_id": 25,
+        "Book_copies": 1,
+        "Book_status": "available"
+    },
+    {
+        "Book_id": 15,
+        "Book_name": "The Hunger Games",
+        "Book_author_id": 57,
+        "Book_category_id": 1,
+        "Book_copies": 1,
+        "Book_status": "available"
+    },
+    {
+        "Book_id": 16,
+        "Book_name": "Dracula",
+        "Book_author_id": 59,
+        "Book_category_id": 27,
+        "Book_copies": 1,
+        "Book_status": "available"
+    },
+    {
+        "Book_id": 17,
+        "Book_name": "Jane Eyre",
+        "Book_author_id": 39,
+        "Book_category_id": 16,
+        "Book_copies": 1,
+        "Book_status": "not available"
+    },
+    {
+        "Book_id": 18,
+        "Book_name": "The Chronicles of N",
+        "Book_author_id": 24,
+        "Book_category_id": 30,
+        "Book_copies": 1,
+        "Book_status": "available"
+    },
+    {
+        "Book_id": 19,
+        "Book_name": "Hyperion",
+        "Book_author_id": 54,
+        "Book_category_id": 14,
+        "Book_copies": 1,
+        "Book_status": "not available"
+    },
+    {
+        "Book_id": 20,
+        "Book_name": "Normal People",
+        "Book_author_id": 77,
+        "Book_category_id": 25,
+        "Book_copies": 1,
+        "Book_status": "available"
+    },
+    {
+        "Book_id": 21,
+        "Book_name": "Quiet",
+        "Book_author_id": 14,
+        "Book_category_id": 4,
+        "Book_copies": 1,
+        "Book_status": "available"
+    },
+    {
+        "Book_id": 22,
+        "Book_name": "The Lord of the Rin",
+        "Book_author_id": 62,
+        "Book_category_id": 20,
+        "Book_copies": 1,
+        "Book_status": "not available"
+    },
+    {
+        "Book_id": 23,
+        "Book_name": "Wuthering Heights",
+        "Book_author_id": 66,
+        "Book_category_id": 26,
+        "Book_copies": 1,
+        "Book_status": "not available"
+    },
+    {
+        "Book_id": 24,
+        "Book_name": "Thinking Fast and S",
+        "Book_author_id": 37,
+        "Book_category_id": 25,
+        "Book_copies": 1,
+        "Book_status": "available"
+    },
+    {
+        "Book_id": 25,
+        "Book_name": "Treasure Island",
+        "Book_author_id": 57,
+        "Book_category_id": 17,
+        "Book_copies": 1,
+        "Book_status": "available"
+    },
+    {
+        "Book_id": 26,
+        "Book_name": "Neuromancer",
+        "Book_author_id": 38,
+        "Book_category_id": 24,
+        "Book_copies": 1,
+        "Book_status": "not available"
+    },
+    {
+        "Book_id": 27,
+        "Book_name": "The God of Small Th",
+        "Book_author_id": 18,
+        "Book_category_id": 6,
+        "Book_copies": 1,
+        "Book_status": "available"
+    },
+    {
+        "Book_id": 28,
+        "Book_name": "The Power of Habit",
+        "Book_author_id": 45,
+        "Book_category_id": 17,
+        "Book_copies": 1,
+        "Book_status": "not available"
+    },
+    {
+        "Book_id": 29,
+        "Book_name": "Sapiens",
+        "Book_author_id": 8,
+        "Book_category_id": 5,
+        "Book_copies": 1,
+        "Book_status": "available"
+    },
+    {
+        "Book_id": 30,
+        "Book_name": "Moby-Dick",
+        "Book_author_id": 59,
+        "Book_category_id": 11,
+        "Book_copies": 1,
+        "Book_status": "not available"
+    },
+    {
+        "Book_id": 31,
+        "Book_name": "Crazy Rich Asians",
+        "Book_author_id": 76,
+        "Book_category_id": 30,
+        "Book_copies": 1,
+        "Book_status": "available"
+    },
+    {
+        "Book_id": 32,
+        "Book_name": "The Da Vinci Code",
+        "Book_author_id": 71,
+        "Book_category_id": 17,
+        "Book_copies": 1,
+        "Book_status": "not available"
+    },
+    {
+        "Book_id": 33,
+        "Book_name": "Crime and Punishmen",
+        "Book_author_id": 31,
+        "Book_category_id": 7,
+        "Book_copies": 1,
+        "Book_status": "available"
+    },
+    {
+        "Book_id": 34,
+        "Book_name": "To Kill a Mockingbi",
+        "Book_author_id": 70,
+        "Book_category_id": 30,
+        "Book_copies": 1,
+        "Book_status": "available"
+    },
+    {
+        "Book_id": 35,
+        "Book_name": "The Silent Patient",
+        "Book_author_id": 42,
+        "Book_category_id": 4,
+        "Book_copies": 1,
+        "Book_status": "available"
+    },
+    {
+        "Book_id": 36,
+        "Book_name": "The Stranger",
+        "Book_author_id": 76,
+        "Book_category_id": 20,
+        "Book_copies": 1,
+        "Book_status": "not available"
+    },
+    {
+        "Book_id": 37,
+        "Book_name": "A Fine Balance",
+        "Book_author_id": 40,
+        "Book_category_id": 16,
+        "Book_copies": 1,
+        "Book_status": "available"
+    },
+    {
+        "Book_id": 38,
+        "Book_name": "Les Miserables",
+        "Book_author_id": 64,
+        "Book_category_id": 23,
+        "Book_copies": 1,
+        "Book_status": "not available"
+    },
+    {
+        "Book_id": 39,
+        "Book_name": "The Elements of Sty",
+        "Book_author_id": 54,
+        "Book_category_id": 24,
+        "Book_copies": 1,
+        "Book_status": "not available"
+    },
+    {
+        "Book_id": 40,
+        "Book_name": "Fahrenheit 451",
+        "Book_author_id": 61,
+        "Book_category_id": 14,
+        "Book_copies": 1,
+        "Book_status": "available"
+    },
+    {
+        "Book_id": 41,
+        "Book_name": "Atomic Habits",
+        "Book_author_id": 41,
+        "Book_category_id": 16,
+        "Book_copies": 1,
+        "Book_status": "available"
+    },
+    {
+        "Book_id": 42,
+        "Book_name": "Gone Girl",
+        "Book_author_id": 44,
+        "Book_category_id": 30,
+        "Book_copies": 1,
+        "Book_status": "available"
+    },
+    {
+        "Book_id": 43,
+        "Book_name": "Educated",
+        "Book_author_id": 1,
+        "Book_category_id": 23,
+        "Book_copies": 1,
+        "Book_status": "available"
+    },
+    {
+        "Book_id": 44,
+        "Book_name": "The Catcher in the",
+        "Book_author_id": 17,
+        "Book_category_id": 10,
+        "Book_copies": 1,
+        "Book_status": "available"
+    },
+    {
+        "Book_id": 45,
+        "Book_name": "Namesake",
+        "Book_author_id": 67,
+        "Book_category_id": 29,
+        "Book_copies": 1,
+        "Book_status": "not available"
+    },
+    {
+        "Book_id": 46,
+        "Book_name": "The Picture of Dori",
+        "Book_author_id": 27,
+        "Book_category_id": 12,
+        "Book_copies": 1,
+        "Book_status": "available"
+    },
+    {
+        "Book_id": 47,
+        "Book_name": "Brave New World",
+        "Book_author_id": 48,
+        "Book_category_id": 4,
+        "Book_copies": 1,
+        "Book_status": "not available"
+    },
+    {
+        "Book_id": 48,
+        "Book_name": "Lord of the Flies",
+        "Book_author_id": 69,
+        "Book_category_id": 24,
+        "Book_copies": 1,
+        "Book_status": "available"
+    },
+    {
+        "Book_id": 49,
+        "Book_name": "1984",
+        "Book_author_id": 43,
+        "Book_category_id": 12,
+        "Book_copies": 1,
+        "Book_status": "not available"
+    },
+    {
+        "Book_id": 50,
+        "Book_name": "The Road",
+        "Book_author_id": 46,
+        "Book_category_id": 3,
+        "Book_copies": 1,
+        "Book_status": "available"
+    },
+    {
+        "Book_id": 51,
+        "Book_name": "Midnight's Children",
+        "Book_author_id": 77,
+        "Book_category_id": 4,
+        "Book_copies": 1,
+        "Book_status": "not available"
+    },
+    {
+        "Book_id": 52,
+        "Book_name": "No Country for Old",
+        "Book_author_id": 50,
+        "Book_category_id": 30,
+        "Book_copies": 1,
+        "Book_status": "not available"
+    },
+    {
+        "Book_id": 53,
+        "Book_name": "Great Expectations",
+        "Book_author_id": 35,
+        "Book_category_id": 24,
+        "Book_copies": 1,
+        "Book_status": "available"
+    },
+    {
+        "Book_id": 54,
+        "Book_name": "The Grapes of Wrath",
+        "Book_author_id": 70,
+        "Book_category_id": 7,
+        "Book_copies": 1,
+        "Book_status": "not available"
+    },
+    {
+        "Book_id": 55,
+        "Book_name": "Lolita",
+        "Book_author_id": 45,
+        "Book_category_id": 30,
+        "Book_copies": 1,
+        "Book_status": "not available"
+    },
+    {
+        "Book_id": 56,
+        "Book_name": "The Great Gatsby",
+        "Book_author_id": 19,
+        "Book_category_id": 23,
+        "Book_copies": 1,
+        "Book_status": "available"
+    },
+    {
+        "Book_id": 57,
+        "Book_name": "Beloved",
+        "Book_author_id": 40,
+        "Book_category_id": 13,
+        "Book_copies": 1,
+        "Book_status": "not available"
+    },
+    {
+        "Book_id": 58,
+        "Book_name": "Becoming",
+        "Book_author_id": 30,
+        "Book_category_id": 13,
+        "Book_copies": 1,
+        "Book_status": "available"
+    },
+    {
+        "Book_id": 59,
+        "Book_name": "Little Women",
+        "Book_author_id": 17,
+        "Book_category_id": 15,
+        "Book_copies": 1,
+        "Book_status": "not available"
+    },
+    {
+        "Book_id": 60,
+        "Book_name": "The Book Thief",
+        "Book_author_id": 26,
+        "Book_category_id": 8,
+        "Book_copies": 1,
+        "Book_status": "available"
+    },
+    {
+        "Book_id": 61,
+        "Book_name": "Frankenstein",
+        "Book_author_id": 33,
+        "Book_category_id": 28,
+        "Book_copies": 1,
+        "Book_status": "not available"
+    },
+    {
+        "Book_id": 62,
+        "Book_name": "The Old Man and the",
+        "Book_author_id": 5,
+        "Book_category_id": 6,
+        "Book_copies": 1,
+        "Book_status": "available"
+    },
+    {
+        "Book_id": 63,
+        "Book_name": "Where the Crawdads",
+        "Book_author_id": 6,
+        "Book_category_id": 9,
+        "Book_copies": 1,
+        "Book_status": "available"
+    },
+    {
+        "Book_id": 64,
+        "Book_name": "The Metamorphosis",
+        "Book_author_id": 43,
+        "Book_category_id": 25,
+        "Book_copies": 1,
+        "Book_status": "not available"
+    },
+    {
+        "Book_id": 65,
+        "Book_name": "A Brief History of",
+        "Book_author_id": 64,
+        "Book_category_id": 22,
+        "Book_copies": 1,
+        "Book_status": "not available"
+    },
+    {
+        "Book_id": 66,
+        "Book_name": "One Hundred Years o",
+        "Book_author_id": 70,
+        "Book_category_id": 25,
+        "Book_copies": 1,
+        "Book_status": "available"
+    },
+    {
+        "Book_id": 67,
+        "Book_name": "The Count of Monte",
+        "Book_author_id": 10,
+        "Book_category_id": 13,
+        "Book_copies": 1,
+        "Book_status": "not available"
+    },
+    {
+        "Book_id": 68,
+        "Book_name": "Blink",
+        "Book_author_id": 24,
+        "Book_category_id": 3,
+        "Book_copies": 1,
+        "Book_status": "not available"
+    },
+    {
+        "Book_id": 69,
+        "Book_name": "Of Mice and Men",
+        "Book_author_id": 14,
+        "Book_category_id": 4,
+        "Book_copies": 1,
+        "Book_status": "not available"
+    },
+    {
+        "Book_id": 70,
+        "Book_name": "Animal Farm",
+        "Book_author_id": 45,
+        "Book_category_id": 28,
+        "Book_copies": 1,
+        "Book_status": "available"
+    }
+]

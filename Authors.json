@@ -1,0 +1,322 @@
+[
+    {
+        "Author_id": 1,
+        "Author_name": "Tim Ferriss"
+    },
+    {
+        "Author_id": 2,
+        "Author_name": "J.K. Rowling"
+    },
+    {
+        "Author_id": 3,
+        "Author_name": "Stephen Covey"
+    },
+    {
+        "Author_id": 4,
+        "Author_name": "Mark Twain"
+    },
+    {
+        "Author_id": 5,
+        "Author_name": "Carl Sagan"
+    },
+    {
+        "Author_id": 6,
+        "Author_name": "Isaac Asimov"
+    },
+    {
+        "Author_id": 7,
+        "Author_name": "Ernest Hemingway"
+    },
+    {
+        "Author_id": 8,
+        "Author_name": "H.P. Lovecraft"
+    },
+    {
+        "Author_id": 9,
+        "Author_name": "Zora Neale Hurston"
+    },
+    {
+        "Author_id": 10,
+        "Author_name": "James Clear"
+    },
+    {
+        "Author_id": 11,
+        "Author_name": "Sylvia Plath"
+    },
+    {
+        "Author_id": 12,
+        "Author_name": "Christopher Hitchen"
+    },
+    {
+        "Author_id": 13,
+        "Author_name": "J.K. Rowling"
+    },
+    {
+        "Author_id": 14,
+        "Author_name": "Sylvia Plath"
+    },
+    {
+        "Author_id": 15,
+        "Author_name": "Leo Tolstoy"
+    },
+    {
+        "Author_id": 16,
+        "Author_name": "Sam Harris"
+    },
+    {
+        "Author_id": 17,
+        "Author_name": "William Faulkner"
+    },
+    {
+        "Author_id": 18,
+        "Author_name": "Leo Tolstoy"
+    },
+    {
+        "Author_id": 19,
+        "Author_name": "Stephen Hawking"
+    },
+    {
+        "Author_id": 20,
+        "Author_name": "Jean-Paul Sartre"
+    },
+    {
+        "Author_id": 21,
+        "Author_name": "Langston Hughes"
+    },
+    {
+        "Author_id": 22,
+        "Author_name": "Arthur Conan Doyle"
+    },
+    {
+        "Author_id": 23,
+        "Author_name": "Ray Bradbury"
+    },
+    {
+        "Author_id": 24,
+        "Author_name": "Edgar Allan Poe"
+    },
+    {
+        "Author_id": 25,
+        "Author_name": "Khaled Hosseini"
+    },
+    {
+        "Author_id": 26,
+        "Author_name": "Dan Brown"
+    },
+    {
+        "Author_id": 27,
+        "Author_name": "Jane Austen"
+    },
+    {
+        "Author_id": 28,
+        "Author_name": "Robert Frost"
+    },
+    {
+        "Author_id": 29,
+        "Author_name": "Langston Hughes"
+    },
+    {
+        "Author_id": 30,
+        "Author_name": "Dan Brown"
+    },
+    {
+        "Author_id": 31,
+        "Author_name": "Robert Kiyosaki"
+    },
+    {
+        "Author_id": 32,
+        "Author_name": "Isaac Asimov"
+    },
+    {
+        "Author_id": 33,
+        "Author_name": "Frank Herbert"
+    },
+    {
+        "Author_id": 34,
+        "Author_name": "Michelle Obama"
+    },
+    {
+        "Author_id": 35,
+        "Author_name": "George Bernard Shaw"
+    },
+    {
+        "Author_id": 36,
+        "Author_name": "Tim Ferriss"
+    },
+    {
+        "Author_id": 37,
+        "Author_name": "Kazuo Ishiguro"
+    },
+    {
+        "Author_id": 38,
+        "Author_name": "Walter Isaacson"
+    },
+    {
+        "Author_id": 39,
+        "Author_name": "Charles Dickens"
+    },
+    {
+        "Author_id": 40,
+        "Author_name": "George Orwell"
+    },
+    {
+        "Author_id": 41,
+        "Author_name": "Simon Sinek"
+    },
+    {
+        "Author_id": 42,
+        "Author_name": "F. Scott Fitzgerald"
+    },
+    {
+        "Author_id": 43,
+        "Author_name": "Walt Whitman"
+    },
+    {
+        "Author_id": 44,
+        "Author_name": "Charles Dickens"
+    },
+    {
+        "Author_id": 45,
+        "Author_name": "Franz Kafka"
+    },
+    {
+        "Author_id": 46,
+        "Author_name": "James Clear"
+    },
+    {
+        "Author_id": 47,
+        "Author_name": "Agatha Christie"
+    },
+    {
+        "Author_id": 48,
+        "Author_name": "Fyodor Dostoevsky"
+    },
+    {
+        "Author_id": 49,
+        "Author_name": "Langston Hughes"
+    },
+    {
+        "Author_id": 50,
+        "Author_name": "Alice Walker"
+    },
+    {
+        "Author_id": 51,
+        "Author_name": "Napoleon Hill"
+    },
+    {
+        "Author_id": 52,
+        "Author_name": "Jordan Peterson"
+    },
+    {
+        "Author_id": 53,
+        "Author_name": "George R.R. Martin"
+    },
+    {
+        "Author_id": 54,
+        "Author_name": "F. Scott Fitzgerald"
+    },
+    {
+        "Author_id": 55,
+        "Author_name": "F. Scott Fitzgerald"
+    },
+    {
+        "Author_id": 56,
+        "Author_name": "Dan Brown"
+    },
+    {
+        "Author_id": 57,
+        "Author_name": "Khaled Hosseini"
+    },
+    {
+        "Author_id": 58,
+        "Author_name": "J.R.R. Tolkien"
+    },
+    {
+        "Author_id": 59,
+        "Author_name": "James Joyce"
+    },
+    {
+        "Author_id": 60,
+        "Author_name": "Aldous Huxley"
+    },
+    {
+        "Author_id": 61,
+        "Author_name": "Toni Morrison"
+    },
+    {
+        "Author_id": 62,
+        "Author_name": "Michelle Obama"
+    },
+    {
+        "Author_id": 63,
+        "Author_name": "Richard Dawkins"
+    },
+    {
+        "Author_id": 64,
+        "Author_name": "Chimamanda Ngozi Ad"
+    },
+    {
+        "Author_id": 65,
+        "Author_name": "Aldous Huxley"
+    },
+    {
+        "Author_id": 66,
+        "Author_name": "Arundhati Roy"
+    },
+    {
+        "Author_id": 67,
+        "Author_name": "George R.R. Martin"
+    },
+    {
+        "Author_id": 68,
+        "Author_name": "Friedrich Nietzsche"
+    },
+    {
+        "Author_id": 69,
+        "Author_name": "Maya Angelou"
+    },
+    {
+        "Author_id": 70,
+        "Author_name": "Sigmund Freud"
+    },
+    {
+        "Author_id": 71,
+        "Author_name": "Kazuo Ishiguro"
+    },
+    {
+        "Author_id": 72,
+        "Author_name": "Walt Whitman"
+    },
+    {
+        "Author_id": 73,
+        "Author_name": "Maya Angelou"
+    },
+    {
+        "Author_id": 74,
+        "Author_name": "Margaret Atwood"
+    },
+    {
+        "Author_id": 75,
+        "Author_name": "Simon Sinek"
+    },
+    {
+        "Author_id": 76,
+        "Author_name": "Jordan Peterson"
+    },
+    {
+        "Author_id": 77,
+        "Author_name": "Herman Melville"
+    },
+    {
+        "Author_id": 78,
+        "Author_name": "F. Scott Fitzgerald"
+    },
+    {
+        "Author_id": 79,
+        "Author_name": "Langston Hughes"
+    },
+    {
+        "Author_id": 80,
+        "Author_name": "James Clear"
+    }
+]

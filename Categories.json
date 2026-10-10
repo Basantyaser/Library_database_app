@@ -1,0 +1,122 @@
+[
+    {
+        "Category_id": 1,
+        "Category_name": "Memoir"
+    },
+    {
+        "Category_id": 2,
+        "Category_name": "Childrens Literatu"
+    },
+    {
+        "Category_id": 3,
+        "Category_name": "Sci-Fi"
+    },
+    {
+        "Category_id": 4,
+        "Category_name": "Childrens Literatu"
+    },
+    {
+        "Category_id": 5,
+        "Category_name": "Memoir"
+    },
+    {
+        "Category_id": 6,
+        "Category_name": "Fiction"
+    },
+    {
+        "Category_id": 7,
+        "Category_name": "Business"
+    },
+    {
+        "Category_id": 8,
+        "Category_name": "Historical Fiction"
+    },
+    {
+        "Category_id": 9,
+        "Category_name": "Autobiography"
+    },
+    {
+        "Category_id": 10,
+        "Category_name": "Childrens Literatu"
+    },
+    {
+        "Category_id": 11,
+        "Category_name": "Drama"
+    },
+    {
+        "Category_id": 12,
+        "Category_name": "Art"
+    },
+    {
+        "Category_id": 13,
+        "Category_name": "Travel"
+    },
+    {
+        "Category_id": 14,
+        "Category_name": "Science"
+    },
+    {
+        "Category_id": 15,
+        "Category_name": "Mystery"
+    },
+    {
+        "Category_id": 16,
+        "Category_name": "Historical Fiction"
+    },
+    {
+        "Category_id": 17,
+        "Category_name": "True Crime"
+    },
+    {
+        "Category_id": 18,
+        "Category_name": "Finance"
+    },
+    {
+        "Category_id": 19,
+        "Category_name": "Biography"
+    },
+    {
+        "Category_id": 20,
+        "Category_name": "Mystery"
+    },
+    {
+        "Category_id": 21,
+        "Category_name": "Thriller"
+    },
+    {
+        "Category_id": 22,
+        "Category_name": "Horror"
+    },
+    {
+        "Category_id": 23,
+        "Category_name": "Technology"
+    },
+    {
+        "Category_id": 24,
+        "Category_name": "Thriller"
+    },
+    {
+        "Category_id": 25,
+        "Category_name": "Business"
+    },
+    {
+        "Category_id": 26,
+        "Category_name": "Romance"
+    },
+    {
+        "Category_id": 27,
+        "Category_name": "Historical Fiction"
+    },
+    {
+        "Category_id": 28,
+        "Category_name": "Young Adult"
+    },
+    {
+        "Category_id": 29,
+        "Category_name": "Science"
+    },
+    {
+        "Category_id": 30,
+        "Category_name": "Travel"
+    }
+]

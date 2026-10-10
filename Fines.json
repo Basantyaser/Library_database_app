@@ -1,0 +1,562 @@
+[
+    {
+        "Fine_id": 1,
+        "Loan_id": 1,
+        "Amount": 19.0,
+        "Reason": "Travel Out Of Town",
+        "Status": ""
+    },
+    {
+        "Fine_id": 2,
+        "Loan_id": 2,
+        "Amount": 23.0,
+        "Reason": "System Error",
+        "Status": ""
+    },
+    {
+        "Fine_id": 3,
+        "Loan_id": 3,
+        "Amount": 16.0,
+        "Reason": "Transportation Fail",
+        "Status": ""
+    },
+    {
+        "Fine_id": 4,
+        "Loan_id": 4,
+        "Amount": 25.0,
+        "Reason": "Work Overload",
+        "Status": ""
+    },
+    {
+        "Fine_id": 5,
+        "Loan_id": 5,
+        "Amount": 24.0,
+        "Reason": "Book Misplacement",
+        "Status": ""
+    },
+    {
+        "Fine_id": 6,
+        "Loan_id": 6,
+        "Amount": 27.0,
+        "Reason": "Illness",
+        "Status": ""
+    },
+    {
+        "Fine_id": 7,
+        "Loan_id": 7,
+        "Amount": 22.0,
+        "Reason": "Illness",
+        "Status": ""
+    },
+    {
+        "Fine_id": 8,
+        "Loan_id": 8,
+        "Amount": 22.0,
+        "Reason": "Illness",
+        "Status": ""
+    },
+    {
+        "Fine_id": 9,
+        "Loan_id": 9,
+        "Amount": 21.0,
+        "Reason": "Travel Out Of Town",
+        "Status": ""
+    },
+    {
+        "Fine_id": 10,
+        "Loan_id": 10,
+        "Amount": 18.0,
+        "Reason": "Work Overload",
+        "Status": ""
+    },
+    {
+        "Fine_id": 11,
+        "Loan_id": 11,
+        "Amount": 22.0,
+        "Reason": "Travel Out Of Town",
+        "Status": ""
+    },
+    {
+        "Fine_id": 12,
+        "Loan_id": 12,
+        "Amount": 22.0,
+        "Reason": "Transportation Fail",
+        "Status": ""
+    },
+    {
+        "Fine_id": 13,
+        "Loan_id": 13,
+        "Amount": 21.0,
+        "Reason": "Book Misplacement",
+        "Status": ""
+    },
+    {
+        "Fine_id": 14,
+        "Loan_id": 14,
+        "Amount": 21.0,
+        "Reason": "Transportation Fail",
+        "Status": ""
+    },
+    {
+        "Fine_id": 15,
+        "Loan_id": 15,
+        "Amount": 29.0,
+        "Reason": "Illness",
+        "Status": ""
+    },
+    {
+        "Fine_id": 16,
+        "Loan_id": 16,
+        "Amount": 16.0,
+        "Reason": "Book Misplacement",
+        "Status": ""
+    },
+    {
+        "Fine_id": 17,
+        "Loan_id": 17,
+        "Amount": 29.0,
+        "Reason": "Illness",
+        "Status": ""
+    },
+    {
+        "Fine_id": 18,
+        "Loan_id": 18,
+        "Amount": 27.0,
+        "Reason": "Transportation Fail",
+        "Status": ""
+    },
+    {
+        "Fine_id": 19,
+        "Loan_id": 19,
+        "Amount": 22.0,
+        "Reason": "Book Misplacement",
+        "Status": ""
+    },
+    {
+        "Fine_id": 20,
+        "Loan_id": 20,
+        "Amount": 19.0,
+        "Reason": "Book Misplacement",
+        "Status": ""
+    },
+    {
+        "Fine_id": 21,
+        "Loan_id": 21,
+        "Amount": 33.0,
+        "Reason": "Work Overload",
+        "Status": ""
+    },
+    {
+        "Fine_id": 22,
+        "Loan_id": 22,
+        "Amount": 31.0,
+        "Reason": "Transportation Fail",
+        "Status": ""
+    },
+    {
+        "Fine_id": 23,
+        "Loan_id": 23,
+        "Amount": 21.0,
+        "Reason": "Work Overload",
+        "Status": ""
+    },
+    {
+        "Fine_id": 24,
+        "Loan_id": 24,
+        "Amount": 35.0,
+        "Reason": "Travel Out Of Town",
+        "Status": ""
+    },
+    {
+        "Fine_id": 25,
+        "Loan_id": 25,
+        "Amount": 25.0,
+        "Reason": "Illness",
+        "Status": ""
+    },
+    {
+        "Fine_id": 26,
+        "Loan_id": 26,
+        "Amount": 19.0,
+        "Reason": "Forgot the Due Date",
+        "Status": ""
+    },
+    {
+        "Fine_id": 27,
+        "Loan_id": 27,
+        "Amount": 21.0,
+        "Reason": "System Error",
+        "Status": ""
+    },
+    {
+        "Fine_id": 28,
+        "Loan_id": 28,
+        "Amount": 29.0,
+        "Reason": "Illness",
+        "Status": ""
+    },
+    {
+        "Fine_id": 29,
+        "Loan_id": 29,
+        "Amount": 19.0,
+        "Reason": "Work Overload",
+        "Status": ""
+    },
+    {
+        "Fine_id": 30,
+        "Loan_id": 30,
+        "Amount": 25.0,
+        "Reason": "Travel Out Of Town",
+        "Status": ""
+    },
+    {
+        "Fine_id": 31,
+        "Loan_id": 31,
+        "Amount": 17.0,
+        "Reason": "Work Overload",
+        "Status": ""
+    },
+    {
+        "Fine_id": 32,
+        "Loan_id": 32,
+        "Amount": 29.0,
+        "Reason": "Travel Out Of Town",
+        "Status": ""
+    },
+    {
+        "Fine_id": 33,
+        "Loan_id": 33,
+        "Amount": 27.0,
+        "Reason": "System Error",
+        "Status": ""
+    },
+    {
+        "Fine_id": 34,
+        "Loan_id": 34,
+        "Amount": 29.0,
+        "Reason": "Travel Out Of Town",
+        "Status": ""
+    },
+    {
+        "Fine_id": 35,
+        "Loan_id": 35,
+        "Amount": 24.0,
+        "Reason": "System Error",
+        "Status": ""
+    },
+    {
+        "Fine_id": 36,
+        "Loan_id": 36,
+        "Amount": 17.0,
+        "Reason": "Travel Out Of Town",
+        "Status": ""
+    },
+    {
+        "Fine_id": 37,
+        "Loan_id": 37,
+        "Amount": 17.0,
+        "Reason": "Book Misplacement",
+        "Status": ""
+    },
+    {
+        "Fine_id": 38,
+        "Loan_id": 38,
+        "Amount": 24.0,
+        "Reason": "Book Misplacement",
+        "Status": ""
+    },
+    {
+        "Fine_id": 39,
+        "Loan_id": 39,
+        "Amount": 34.0,
+        "Reason": "Forgot the Due Date",
+        "Status": ""
+    },
+    {
+        "Fine_id": 40,
+        "Loan_id": 40,
+        "Amount": 15.0,
+        "Reason": "Transportation Fail",
+        "Status": ""
+    },
+    {
+        "Fine_id": 41,
+        "Loan_id": 41,
+        "Amount": 22.0,
+        "Reason": "Book Misplacement",
+        "Status": ""
+    },
+    {
+        "Fine_id": 42,
+        "Loan_id": 42,
+        "Amount": 22.0,
+        "Reason": "Book Misplacement",
+        "Status": ""
+    },
+    {
+        "Fine_id": 43,
+        "Loan_id": 43,
+        "Amount": 17.0,
+        "Reason": "Illness",
+        "Status": ""
+    },
+    {
+        "Fine_id": 44,
+        "Loan_id": 44,
+        "Amount": 27.0,
+        "Reason": "Book Misplacement",
+        "Status": ""
+    },
+    {
+        "Fine_id": 45,
+        "Loan_id": 45,
+        "Amount": 18.0,
+        "Reason": "Forgot the Due Date",
+        "Status": ""
+    },
+    {
+        "Fine_id": 46,
+        "Loan_id": 46,
+        "Amount": 23.0,
+        "Reason": "System Error",
+        "Status": ""
+    },
+    {
+        "Fine_id": 47,
+        "Loan_id": 47,
+        "Amount": 17.0,
+        "Reason": "Transportation Fail",
+        "Status": ""
+    },
+    {
+        "Fine_id": 48,
+        "Loan_id": 48,
+        "Amount": 15.0,
+        "Reason": "Transportation Fail",
+        "Status": ""
+    },
+    {
+        "Fine_id": 49,
+        "Loan_id": 49,
+        "Amount": 32.0,
+        "Reason": "System Error",
+        "Status": ""
+    },
+    {
+        "Fine_id": 50,
+        "Loan_id": 50,
+        "Amount": 18.0,
+        "Reason": "System Error",
+        "Status": ""
+    },
+    {
+        "Fine_id": 51,
+        "Loan_id": 51,
+        "Amount": 32.0,
+        "Reason": "Travel Out Of Town",
+        "Status": ""
+    },
+    {
+        "Fine_id": 52,
+        "Loan_id": 52,
+        "Amount": 16.0,
+        "Reason": "Transportation Fail",
+        "Status": ""
+    },
+    {
+        "Fine_id": 53,
+        "Loan_id": 53,
+        "Amount": 33.0,
+        "Reason": "Transportation Fail",
+        "Status": ""
+    },
+    {
+        "Fine_id": 54,
+        "Loan_id": 54,
+        "Amount": 31.0,
+        "Reason": "Book Misplacement",
+        "Status": ""
+    },
+    {
+        "Fine_id": 55,
+        "Loan_id": 55,
+        "Amount": 18.0,
+        "Reason": "System Error",
+        "Status": ""
+    },
+    {
+        "Fine_id": 56,
+        "Loan_id": 56,
+        "Amount": 27.0,
+        "Reason": "System Error",
+        "Status": ""
+    },
+    {
+        "Fine_id": 57,
+        "Loan_id": 57,
+        "Amount": 15.0,
+        "Reason": "Work Overload",
+        "Status": ""
+    },
+    {
+        "Fine_id": 58,
+        "Loan_id": 58,
+        "Amount": 21.0,
+        "Reason": "Illness",
+        "Status": ""
+    },
+    {
+        "Fine_id": 59,
+        "Loan_id": 59,
+        "Amount": 33.0,
+        "Reason": "Transportation Fail",
+        "Status": ""
+    },
+    {
+        "Fine_id": 60,
+        "Loan_id": 60,
+        "Amount": 32.0,
+        "Reason": "System Error",
+        "Status": ""
+    },
+    {
+        "Fine_id": 61,
+        "Loan_id": 61,
+        "Amount": 31.0,
+        "Reason": "Travel Out Of Town",
+        "Status": ""
+    },
+    {
+        "Fine_id": 62,
+        "Loan_id": 62,
+        "Amount": 24.0,
+        "Reason": "Travel Out Of Town",
+        "Status": ""
+    },
+    {
+        "Fine_id": 63,
+        "Loan_id": 63,
+        "Amount": 21.0,
+        "Reason": "Book Misplacement",
+        "Status": ""
+    },
+    {
+        "Fine_id": 64,
+        "Loan_id": 64,
+        "Amount": 32.0,
+        "Reason": "Illness",
+        "Status": ""
+    },
+    {
+        "Fine_id": 65,
+        "Loan_id": 65,
+        "Amount": 17.0,
+        "Reason": "Illness",
+        "Status": ""
+    },
+    {
+        "Fine_id": 66,
+        "Loan_id": 66,
+        "Amount": 29.0,
+        "Reason": "Illness",
+        "Status": ""
+    },
+    {
+        "Fine_id": 67,
+        "Loan_id": 67,
+        "Amount": 17.0,
+        "Reason": "Work Overload",
+        "Status": ""
+    },
+    {
+        "Fine_id": 68,
+        "Loan_id": 68,
+        "Amount": 22.0,
+        "Reason": "System Error",
+        "Status": ""
+    },
+    {
+        "Fine_id": 69,
+        "Loan_id": 69,
+        "Amount": 19.0,
+        "Reason": "Travel Out Of Town",
+        "Status": ""
+    },
+    {
+        "Fine_id": 70,
+        "Loan_id": 70,
+        "Amount": 26.0,
+        "Reason": "Travel Out Of Town",
+        "Status": ""
+    },
+    {
+        "Fine_id": 71,
+        "Loan_id": 71,
+        "Amount": 34.0,
+        "Reason": "System Error",
+        "Status": ""
+    },
+    {
+        "Fine_id": 72,
+        "Loan_id": 72,
+        "Amount": 21.0,
+        "Reason": "Book Misplacement",
+        "Status": ""
+    },
+    {
+        "Fine_id": 73,
+        "Loan_id": 73,
+        "Amount": 29.0,
+        "Reason": "Work Overload",
+        "Status": ""
+    },
+    {
+        "Fine_id": 74,
+        "Loan_id": 74,
+        "Amount": 32.0,
+        "Reason": "Illness",
+        "Status": ""
+    },
+    {
+        "Fine_id": 75,
+        "Loan_id": 75,
+        "Amount": 28.0,
+        "Reason": "Travel Out Of Town",
+        "Status": ""
+    },
+    {
+        "Fine_id": 76,
+        "Loan_id": 76,
+        "Amount": 28.0,
+        "Reason": "Travel Out Of Town",
+        "Status": ""
+    },
+    {
+        "Fine_id": 77,
+        "Loan_id": 77,
+        "Amount": 23.0,
+        "Reason": "Travel Out Of Town",
+        "Status": ""
+    },
+    {
+        "Fine_id": 78,
+        "Loan_id": 78,
+        "Amount": 28.0,
+        "Reason": "Work Overload",
+        "Status": ""
+    },
+    {
+        "Fine_id": 79,
+        "Loan_id": 79,
+        "Amount": 22.0,
+        "Reason": "Work Overload",
+        "Status": ""
+    },
+    {
+        "Fine_id": 80,
+        "Loan_id": 80,
+        "Amount": 24.0,
+        "Reason": "Illness",
+        "Status": ""
+    }
+]
