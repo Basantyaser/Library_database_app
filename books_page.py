@@ -30,7 +30,8 @@ class BooksPage(ctk.CTkFrame):
 
         for i, text in enumerate(columns):
             header.grid_columnconfigure(i, weight=1, uniform="col")
-            label = ctk.CTkLabel(header, text=text, anchor="w", font=theme.Theme.FONTS["normal"])
+            label = ctk.CTkLabel(header, text=text, anchor="w")
+            theme.label_default(label)
             label.grid(row=0, column=i, sticky="w", padx=5, pady=5)
 
         #table
@@ -49,32 +50,28 @@ class BooksPage(ctk.CTkFrame):
 
         # one row per book
         for r, book in enumerate(books):
-            ctk.CTkLabel(self.table, text=book["id"], anchor="w").grid(row=r, column=0, sticky="w", padx=5, pady=6)
-            ctk.CTkLabel(self.table, text=book["name"], anchor="w").grid(row=r, column=1, sticky="w", padx=5)
-            ctk.CTkLabel(self.table, text=book["category"], anchor="w").grid(row=r, column=2, sticky="w", padx=5)
-            ctk.CTkLabel(self.table, text=book["author"], anchor="w").grid(row=r, column=3, sticky="w", padx=5)
+            # the keys must match what get_books() returns
+            for c, key in enumerate(["id", "name", "category", "author"]):
+                label = ctk.CTkLabel(self.table, text=book[key], anchor="w")
+                theme.label_small(label)
+                label.grid(row=r, column=c, sticky="w", padx=5, pady=6)
 
             actions = ctk.CTkFrame(self.table, fg_color="transparent")
             actions.grid(row=r, column=4, sticky="w")
 
             edit_btn = ctk.CTkButton(
-                actions, text="Edit", width=60,
+                actions, text="Edit", width=80,
                 command=lambda b=book: self.edit_book(b["id"]),
             )
             theme.button_secondary(edit_btn)
             edit_btn.pack(side="left", padx=(0, 5))
 
             delete_btn = ctk.CTkButton(
-                actions, text="Delete", width=60,
+                actions, text="Delete", width=80,
                 command=lambda b=book: self.delete_book(b["id"]),
             )
             theme.button_danger(delete_btn)
             delete_btn.pack(side="left")
-
-
-
-
-
 
     def get_books(self):
         # TODO : حط داتا بدل دول

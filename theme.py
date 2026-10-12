@@ -36,10 +36,10 @@ class Theme:
     # FONTS
     # =========================
     FONTS = {
-        "normal": ("Segoe UI", 14, "bold"),
-        "small": ("Segoe UI", 10),
-        "bold": ("Segoe UI", 18, "bold"),
-        "title": ("Segoe UI", 20, "bold"),
+        "normal": ("Comic Sans", 14, "bold"),
+        "small": ("Comic Sans", 10),
+        "bold": ("Comic Sans", 18, "bold"),
+        "title": ("Comic Sans", 20, "bold"),
         "mono": ("Consolas", 11),
         
     }
