@@ -11,14 +11,14 @@ class App(ctk.CTk):
     def __init__(self):
         super().__init__()
         self.title("Library Management System")
-        self.geometry("700x500")
+        self.geometry("1080x500")
 
         sidebar = ctk.CTkFrame(self, width=200)
         sidebar.pack(side="left", fill="y")
 
         page_classes = {
-            "Categories": CategoriesPage,
             "Books": BooksPage,
+            "Categories": CategoriesPage,
             "Authors": AuthorsPage,
             "Members": MembersPage,
         }
@@ -38,7 +38,7 @@ class App(ctk.CTk):
         for name, page_class in page_classes.items():
             self.pages[name] = page_class(self.content)
 
-        self.show_page("Categories")
+        self.show_page("Books")
 
     def show_page(self, name):
         for page in self.pages.values():
