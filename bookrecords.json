@@ -1,0 +1,1202 @@
+[
+    {
+        "id": "OL5603179W",
+        "title": "Hacking",
+        "category": "Computer networks",
+        "authorname": "Jon Erickson, Jon Erickson"
+    },
+    {
+        "id": "OL17618370W",
+        "title": "Clean Code",
+        "category": "Agile software development",
+        "authorname": "Robert C. Martin"
+    },
+    {
+        "id": "OL804638W",
+        "title": "Hackers",
+        "category": "Computer programming",
+        "authorname": "Steven Levy"
+    },
+    {
+        "id": "OL3267304W",
+        "title": "Structure and Interpretation of Computer Programs (SICP)",
+        "category": "Computer programming",
+        "authorname": "Harold Abelson, Gerald Jay Sussman, Julie Sussman"
+    },
+    {
+        "id": "OL17357767W",
+        "title": "Algorithms to Live By",
+        "category": "Human behavior",
+        "authorname": "Brian Christian, Tom Griffiths, Brian Christian"
+    },
+    {
+        "id": "OL1972516W",
+        "title": "Code",
+        "category": "Computer programming",
+        "authorname": "Charles Petzold, Charles Petzold"
+    },
+    {
+        "id": "OL17192141W",
+        "title": "Automate the Boring Stuff with Python",
+        "category": "Python (Computer program language)",
+        "authorname": "Al Sweigart"
+    },
+    {
+        "id": "OL5957689W",
+        "title": "Masters of Doom",
+        "category": "Computer games",
+        "authorname": "David Kushner"
+    },
+    {
+        "id": "OL6035941W",
+        "title": "Hacking for Dummies",
+        "category": "Computer Technology",
+        "authorname": "Kevin Beaver, Jutta Schmidt"
+    },
+    {
+        "id": "OL2373712W",
+        "title": "Computer Concepts",
+        "category": "Amateurs' manuals",
+        "authorname": "June Jamrich Parsons, Dan Oja"
+    },
+    {
+        "id": "OL2784125W",
+        "title": "Learning Python",
+        "category": "Python (Langage de programmation)",
+        "authorname": "Mark Lutz, David Ascher"
+    },
+    {
+        "id": "OL16495169W",
+        "title": "Social Engineering",
+        "category": "Computer hackers",
+        "authorname": "Christopher Hadnagy"
+    },
+    {
+        "id": "OL3510570W",
+        "title": "The Mythical Man-Month",
+        "category": "Computer programming management",
+        "authorname": "Frederick P. Brooks"
+    },
+    {
+        "id": "OL3502985W",
+        "title": "Discrete Mathematics with Applications",
+        "category": "Textbooks",
+        "authorname": "Susanna S. Epp, Susanna Epp"
+    },
+    {
+        "id": "OL19809141W",
+        "title": "Clean Architecture",
+        "category": "Development",
+        "authorname": "Robert C. Martin"
+    },
+    {
+        "id": "OL5748544W",
+        "title": "The Pragmatic Programmer",
+        "category": "Computer programming",
+        "authorname": "Andy Hunt, Dave Thomas"
+    },
+    {
+        "id": "OL2627594W",
+        "title": "Digital literacy",
+        "category": "Computer literacy",
+        "authorname": "Paul Gilster"
+    },
+    {
+        "id": "OL7943176W",
+        "title": "C++",
+        "category": "Java (Computer program language)",
+        "authorname": "Paul J. Deitel, Harvey M. Deitel"
+    },
+    {
+        "id": "OL7938163W",
+        "title": "Advances in Computers, Volume 49 (Advances in Computers)",
+        "category": "Computers, periodicals",
+        "authorname": "Marvin V. Zelkowitz, Marshall C. Yovits"
+    },
+    {
+        "id": "OL12494344W",
+        "title": "Just for fun",
+        "category": "Biography",
+        "authorname": "Linus Torvalds, David Diamond"
+    },
+    {
+        "id": "OL1643770W",
+        "title": "JavaScript",
+        "category": "JavaScript (Computer program language)",
+        "authorname": "David Flanagan"
+    },
+    {
+        "id": "OL520219W",
+        "title": "How computers work",
+        "category": "Microcomputers",
+        "authorname": "Ron White, Timothy Edward Downs"
+    },
+    {
+        "id": "OL16298147W",
+        "title": "The clean coder",
+        "category": "Computer programmers",
+        "authorname": "Robert C. Martin"
+    },
+    {
+        "id": "OL16085155W",
+        "title": "Steve Jobs",
+        "category": "TECHNOLOGY & ENGINEERING / General",
+        "authorname": "Walter Isaacson"
+    },
+    {
+        "id": "OL5973035W",
+        "title": "Systems Analysis and Design",
+        "category": "Systeemanalyse",
+        "authorname": "Alan Dennis, Barbara Haley Wixom, David Tegarden, Roberta M. Roth"
+    },
+    {
+        "id": "OL15444205W",
+        "title": "Eloquent Javascript",
+        "category": "JavaScript (Computer program language)",
+        "authorname": "Marijn Haverbeke"
+    },
+    {
+        "id": "OL2722063W",
+        "title": "Code Complete",
+        "category": "Development",
+        "authorname": "Steve McConnell"
+    },
+    {
+        "id": "OL19542272W",
+        "title": "Linux Basics for Hackers",
+        "category": "Computer security",
+        "authorname": "OccupyTheWeb"
+    },
+    {
+        "id": "OL16132451W",
+        "title": "Ghost in the wires",
+        "category": "Information superhighway",
+        "authorname": "Kevin D. Mitnick"
+    },
+    {
+        "id": "OL27275831W",
+        "title": "Programming in ANSI C",
+        "category": "C (Computer program language)",
+        "authorname": "E. Balagurusamy"
+    },
+    {
+        "id": "OL3275955W",
+        "title": "Computer science",
+        "category": "Computer science",
+        "authorname": "J. Glenn Brookshear, Brookshear"
+    },
+    {
+        "id": "OL27252W",
+        "title": "The Difference Engine",
+        "category": "American Science fiction",
+        "authorname": "William Gibson, Bruce Sterling"
+    },
+    {
+        "id": "OL4781294W",
+        "title": "Introduction to Algorithms",
+        "category": "Algorithms",
+        "authorname": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein"
+    },
+    {
+        "id": "OL5761256W",
+        "title": "Network Security",
+        "category": "Computer hackers",
+        "authorname": "Ankit Fadia"
+    },
+    {
+        "id": "OL4617640W",
+        "title": "The C Programming Language",
+        "category": "C (Computer program language)",
+        "authorname": "Brian W. Kernighan, Dennis MacAlistair Ritchie"
+    },
+    {
+        "id": "OL3155000W",
+        "title": "Introducing Computers",
+        "category": "Enable (computer program)",
+        "authorname": "Robert H. Blissmer"
+    },
+    {
+        "id": "OL15111477W",
+        "title": "Gray Hat Hacking",
+        "category": "Computer hackers",
+        "authorname": "Shon Harris, Allen Harper, Daniel Regalado, Ryan Linn, Stephen Sims, Branko Spasojevic, Linda Martinez, Michael Baucom, Chris Eagle, Jonathan Ness"
+    },
+    {
+        "id": "OL3233592W",
+        "title": "C programming",
+        "category": "C (Computer program language)",
+        "authorname": "K. N. King"
+    },
+    {
+        "id": "OL53184W",
+        "title": "The C++ programming language",
+        "category": "C++ (Computer program language)",
+        "authorname": "Bjarne Stroustrup"
+    },
+    {
+        "id": "OL25520448W",
+        "title": "JavaScript Basics for Beginners",
+        "category": "Computers",
+        "authorname": "Andy Vickler"
+    },
+    {
+        "id": "OL16976951W",
+        "title": "Think Python",
+        "category": "Computer programming",
+        "authorname": "Allen B. Downey, Allen Downey"
+    },
+    {
+        "id": "OL257263W",
+        "title": "The art of computer programming",
+        "category": "Computer programming",
+        "authorname": "Donald Knuth"
+    },
+    {
+        "id": "OL27172270W",
+        "title": "Five Nights at Freddy's Character Encyclopedia (an AFK Book) (Media Tie-In)",
+        "category": "Encyclopedias",
+        "authorname": "Scott Cawthon"
+    },
+    {
+        "id": "OL3372608W",
+        "title": "Java for dummies",
+        "category": "Computer Technology",
+        "authorname": "Barry A. Burd, Barry Burd"
+    },
+    {
+        "id": "OL17362575W",
+        "title": " Fundamentals of Data Structures in C++ 2nd Edition",
+        "category": "C++ (Computer program language)",
+        "authorname": "Ellis Horowitz, Sartaj Sahni, Dinesh Mehta"
+    },
+    {
+        "id": "OL17319280W",
+        "title": "Superintelligence",
+        "category": "Moral and ethical aspects",
+        "authorname": "Nick Bostrom"
+    },
+    {
+        "id": "OL1926026W",
+        "title": "Invitation to Computer Science",
+        "category": "Computer science",
+        "authorname": "G. Michael Schneider, Judith L. Gersting, Judith Gersting"
+    },
+    {
+        "id": "OL20799566W",
+        "title": "PHP & MySQL",
+        "category": "Php (computer program language)",
+        "authorname": "Jon Duckett"
+    },
+    {
+        "id": "OL20667190W",
+        "title": "Transactions on Engineering Technologies",
+        "category": "Computer engineering",
+        "authorname": "Sio-Iong Ao, Haeng Kon Kim, Oscar Castillo, Alan Hoi-shou Chan, Hideki Katagiri"
+    },
+    {
+        "id": "OL6036025W",
+        "title": "The Cathedral and the Bazaar",
+        "category": "Development",
+        "authorname": "Eric S. Raymond"
+    },
+    {
+        "id": "OL1922611W",
+        "title": "Mathematical structures for computer science",
+        "category": "Textbooks",
+        "authorname": "Judith L. Gersting"
+    },
+    {
+        "id": "OL19546865W",
+        "title": "Grokking Algorithms",
+        "category": "Computer algorithms",
+        "authorname": "Aditya Y. Bhargava"
+    },
+    {
+        "id": "OL58316W",
+        "title": "Beginning programming for dummies",
+        "category": "Computer programming",
+        "authorname": "Wallace Wang, Olivier Engler"
+    },
+    {
+        "id": "OL17920482W",
+        "title": "Python crash course",
+        "category": "Python (Computer program language)",
+        "authorname": "Eric Matthes"
+    },
+    {
+        "id": "OL7001492W",
+        "title": "Operating systems",
+        "category": "Operating systems (Computers)",
+        "authorname": "Stuart E. Madnick, John Donovan"
+    },
+    {
+        "id": "OL16301038W",
+        "title": "Coders at Work",
+        "category": "Programmatuurtechniek",
+        "authorname": "Peter Seibel"
+    },
+    {
+        "id": "OL16942701W",
+        "title": "Head First design patterns",
+        "category": "Development",
+        "authorname": "Eric Freeman, Elisabeth Freeman, Kathy Sierra, Bert Bates, Eric Freeman, Elisabeth Robson, Fu li man"
+    },
+    {
+        "id": "OL16117040W",
+        "title": "The Linux Command Line",
+        "category": "Computers",
+        "authorname": "William E. Shotts"
+    },
+    {
+        "id": "OL8584971W",
+        "title": "Computer Science",
+        "category": "Computer science",
+        "authorname": "Carl French, C. S. French"
+    },
+    {
+        "id": "OL14854130W",
+        "title": "Microserfs",
+        "category": "Computer software industry",
+        "authorname": "Douglas Coupland"
+    },
+    {
+        "id": "OL1881227W",
+        "title": "Managerial Accounting",
+        "category": "Rechnungslegung",
+        "authorname": "Jerry J. Weygandt"
+    },
+    {
+        "id": "OL1854541W",
+        "title": "Operating System Concepts",
+        "category": "Operating systems (Computers)",
+        "authorname": "Abraham Silberschatz"
+    },
+    {
+        "id": "OL282742W",
+        "title": "Linux",
+        "category": "Computer Technology",
+        "authorname": "Tim Parker"
+    },
+    {
+        "id": "OL19932156W",
+        "title": "Fluent Python",
+        "category": "Python (Computer program language)",
+        "authorname": "Luciano Ramalho"
+    },
+    {
+        "id": "OL20873589W",
+        "title": "Computer Science Distilled",
+        "category": "Computer science",
+        "authorname": "Wladston Ferreira Filho, Raimondo Pictet"
+    },
+    {
+        "id": "OL24463217W",
+        "title": "Data Structures and Algorithms Made Easy",
+        "category": "Data structures (computer science)",
+        "authorname": "Narasimha Karumanchi"
+    },
+    {
+        "id": "OL13618121W",
+        "title": "The Art of Game Design",
+        "category": "Computer games",
+        "authorname": "Jesse Schell"
+    },
+    {
+        "id": "OL21197871W",
+        "title": "Cybersecurity for Dummies",
+        "category": "Computer security",
+        "authorname": "Dummies, Steinberg, Joseph"
+    },
+    {
+        "id": "OL51556W",
+        "title": "Computer Confluence",
+        "category": "Informatica",
+        "authorname": "George Beekman, Linda Ericksen"
+    },
+    {
+        "id": "OL38477W",
+        "title": "In the Beginning...Was the Command Line",
+        "category": "Computer Technology",
+        "authorname": "Neal Stephenson"
+    },
+    {
+        "id": "OL19547345W",
+        "title": "Black Hat Python",
+        "category": "Python (Computer program language)",
+        "authorname": "Justin Seitz, Tim Arnold"
+    },
+    {
+        "id": "OL56272W",
+        "title": "Computer networking",
+        "category": "Computer networks",
+        "authorname": "James F. Kurose, Keith W. Ross"
+    },
+    {
+        "id": "OL12343250W",
+        "title": "Computer systems",
+        "category": "Computers",
+        "authorname": "Randal Bryant, Randal E. Bryant, David R. O'Hallaron"
+    },
+    {
+        "id": "OL19650342W",
+        "title": "Game Programming Patterns",
+        "category": "Computer games",
+        "authorname": "Robert Nystrom"
+    },
+    {
+        "id": "OL2960016W",
+        "title": "Software engineering",
+        "category": "Software Engineering",
+        "authorname": "Ian Sommerville, Sommerville, Ian., Ian Sommerville"
+    },
+    {
+        "id": "OL4464385W",
+        "title": "Domain-Driven Design",
+        "category": "Development",
+        "authorname": "Eric Evans"
+    },
+    {
+        "id": "OL16524136W",
+        "title": "Steve Jobs",
+        "category": "History",
+        "authorname": "Karen Blumenthal"
+    },
+    {
+        "id": "OL57786W",
+        "title": "The Internet for Dummies",
+        "category": "Internet",
+        "authorname": "John R. Levine, Carol Baroudi, Margaret Levine Young, Arnold Reinhold, Hy Bender, Geoff Ebbs"
+    },
+    {
+        "id": "OL15188875W",
+        "title": "The Art of Deception",
+        "category": "Computer Technology",
+        "authorname": "Kevin D. Mitnick, William L. Simon"
+    },
+    {
+        "id": "OL58571W",
+        "title": "DOS for Dummies",
+        "category": "Operating Systems (Computers)",
+        "authorname": "Dan Gookin"
+    },
+    {
+        "id": "OL5761252W",
+        "title": "Unofficial guide to ethical hacking",
+        "category": "Computer hackers",
+        "authorname": "Ankit Fadia"
+    },
+    {
+        "id": "OL2035966W",
+        "title": "SQL for Dummies",
+        "category": "SQL (Computer program language)",
+        "authorname": "Allen G. Taylor, Reinhard Engel"
+    },
+    {
+        "id": "OL1961693W",
+        "title": "Extreme programming explained",
+        "category": "Development",
+        "authorname": "Kent Beck, Cynthia Andres"
+    },
+    {
+        "id": "OL20695253W",
+        "title": "Cyber Security",
+        "category": "Computer networks, security measures",
+        "authorname": "Martti Lehto, Pekka Neittaanmäki"
+    },
+    {
+        "id": "OL13646905W",
+        "title": "Daemon",
+        "category": "Human-computer interaction",
+        "authorname": "Daniel Suarez"
+    },
+    {
+        "id": "OL114676W",
+        "title": "Introduction to Java Programming",
+        "category": "Java (Computer program language)",
+        "authorname": "Y. Daniel Liang"
+    },
+    {
+        "id": "OL6073254W",
+        "title": "The animator's survival kit",
+        "category": "Animation (Cinematography)",
+        "authorname": "Richard Williams"
+    },
+    {
+        "id": "OL22705232W",
+        "title": "Programming with Java",
+        "category": "Computers internet programming java general",
+        "authorname": "E. Balagurusamy"
+    },
+    {
+        "id": "OL9173509W",
+        "title": "Advances in Computers",
+        "category": "Electronic data processing",
+        "authorname": "Marshall C. Yovits"
+    },
+    {
+        "id": "OL1970690W",
+        "title": "Structured Computer Organization",
+        "category": "Computer organization",
+        "authorname": "Andrew S. Tanenbaum"
+    },
+    {
+        "id": "OL11967463W",
+        "title": "Objects first with Java",
+        "category": "Java (Computer program language)",
+        "authorname": "David J. Barnes, Michael Kolling, David Barnes, Kolling Barnes, D. Barnes"
+    },
+    {
+        "id": "OL19827983W",
+        "title": "Artificial Intelligence and Soft Computing",
+        "category": "Computer Imaging, Vision, Pattern Recognition and Graphics",
+        "authorname": "Leszek Rutkowski"
+    },
+    {
+        "id": "OL9305390W",
+        "title": "Object-oriented Programming with C++",
+        "category": "C++ (Computer program language)",
+        "authorname": "E. Balagurusamy"
+    },
+    {
+        "id": "OL8021453W",
+        "title": "Programming Pearls",
+        "category": "Computer programming",
+        "authorname": "Jon Bentley"
+    },
+    {
+        "id": "OL98218W",
+        "title": "The Soul of a New Machine",
+        "category": "minicomputers",
+        "authorname": "Tracy Kidder"
+    },
+    {
+        "id": "OL1953422W",
+        "title": "Object-Oriented Software Engineering",
+        "category": "Development",
+        "authorname": "Ivar Jacobson"
+    },
+    {
+        "id": "OL720123W",
+        "title": "Java",
+        "category": "Java (Computer program language)",
+        "authorname": "Herbert Schildt"
+    },
+    {
+        "id": "OL3372614W",
+        "title": "Beginning programming with Java for dummies",
+        "category": "Java (Computer program language)",
+        "authorname": "Barry A. Burd, Barry Burd"
+    },
+    {
+        "id": "OL20730220W",
+        "title": "Advanced Computing and Systems for Security",
+        "category": "Computer security",
+        "authorname": "Rituparna Chaki, Agostino Cortesi, Khalid Saeed, Nabendu Chaki"
+    },
+    {
+        "id": "OL16190700W",
+        "title": "The Basics of Hacking and Penetration Testing",
+        "category": "Computer hackers",
+        "authorname": "Patrick Engebretson"
+    },
+    {
+        "id": "OL3008478W",
+        "title": "Computer organization",
+        "category": "Computer organization",
+        "authorname": "V. Carl Hamacher"
+    },
+    {
+        "id": "OL9086929W",
+        "title": "Let Us C++",
+        "category": "C (Computer program language)",
+        "authorname": "Yashavant Kanetkar"
+    },
+    {
+        "id": "OL15166781W",
+        "title": "97 Things Every Programmer Should Know",
+        "category": "Computer programmers",
+        "authorname": "Kevlin Henney"
+    },
+    {
+        "id": "OL17365W",
+        "title": "2001",
+        "category": "Human-computer interaction",
+        "authorname": "Arthur C. Clarke"
+    },
+    {
+        "id": "OL19543270W",
+        "title": "Java how to program--early objects",
+        "category": "Java (computer program language)",
+        "authorname": "Paul J. Deitel, Harvey M. Deitel"
+    },
+    {
+        "id": "OL35529W",
+        "title": "Computer science",
+        "category": "Structured programming",
+        "authorname": "Behrouz A. Forouzan, Richard F. Gilberg"
+    },
+    {
+        "id": "OL2085228W",
+        "title": "Physics for Computer Science Students",
+        "category": "Physics",
+        "authorname": "Narciso Garcia, Arthur Damask, Steven Schwarz"
+    },
+    {
+        "id": "OL2725099W",
+        "title": "How Linux Works",
+        "category": "Operating systems (Computers)",
+        "authorname": "Brian Ward"
+    },
+    {
+        "id": "OL17734885W",
+        "title": "Let us C",
+        "category": "C (Computer program language)",
+        "authorname": "Yashavant P. Kanetkar"
+    },
+    {
+        "id": "OL13771949W",
+        "title": "Game engine architecture",
+        "category": "Programming",
+        "authorname": "Jason Gregory, Jason Gregory"
+    },
+    {
+        "id": "OL17872278W",
+        "title": "The Book of Why",
+        "category": "Nonfiction",
+        "authorname": "Judea Pearl, Dana Mackenzie, Dana Mackenzie Judea Pearl, Mel Foster"
+    },
+    {
+        "id": "OL17825963W",
+        "title": "You Don't Know JS",
+        "category": "Java (Computer program language)",
+        "authorname": "Kyle Simpson"
+    },
+    {
+        "id": "OL8205071W",
+        "title": "CompTIA A+ Complete Study Guide",
+        "category": "Certification",
+        "authorname": "Quentin Docter"
+    },
+    {
+        "id": "OL16816263W",
+        "title": "Cracking The Coding Interview",
+        "category": "Problems, exercises",
+        "authorname": "Gayle Laakmann McDowell"
+    },
+    {
+        "id": "OL20847686W",
+        "title": "Terraform : Up & Running",
+        "category": "Computer architecture",
+        "authorname": "Yevgeniy Brikman"
+    },
+    {
+        "id": "OL17465036W",
+        "title": "Computer Fundamentals and Programming in C",
+        "category": "Computers, study and teaching",
+        "authorname": "Reema Thareja"
+    },
+    {
+        "id": "OL19080231W",
+        "title": "The Rust Programming Language",
+        "category": "Rust (Computer programming language)",
+        "authorname": "Steve Klabnik, Carol Nichols, Carol Nichols"
+    },
+    {
+        "id": "OL2760691W",
+        "title": "Linux For Dummies",
+        "category": "Computer Technology",
+        "authorname": "Dee-Ann LeBlanc, Melanie Hoag, Evan Blomquist"
+    },
+    {
+        "id": "OL19547722W",
+        "title": "Penetration Testing",
+        "category": "Penetration testing (Computer security)",
+        "authorname": "Georgia Weidman"
+    },
+    {
+        "id": "OL27253W",
+        "title": "Mona Lisa Overdrive",
+        "category": "Science fiction",
+        "authorname": "William Gibson"
+    },
+    {
+        "id": "OL1888054W",
+        "title": "The Hacker Crackdown",
+        "category": "Corrupt practices",
+        "authorname": "Bruce Sterling"
+    },
+    {
+        "id": "OL8837875W",
+        "title": "Ethical Hacking",
+        "category": "Computer security",
+        "authorname": "EC-Council"
+    },
+    {
+        "id": "OL1987733W",
+        "title": "Dealers of Lightning",
+        "category": "History",
+        "authorname": "Michael A. Hiltzik"
+    },
+    {
+        "id": "OL7943173W",
+        "title": "C How to Program",
+        "category": "Java (Computer program language)",
+        "authorname": "Paul J. Deitel, Harvey M. Deitel"
+    },
+    {
+        "id": "OL6031175W",
+        "title": "Technology in action",
+        "category": "Microcomputers",
+        "authorname": "Alan Evans, Alan Evans"
+    },
+    {
+        "id": "OL1958940W",
+        "title": "Data structures and algorithm analysis in C",
+        "category": "Data structures (Computer science)",
+        "authorname": "Mark Allen Weiss"
+    },
+    {
+        "id": "OL19982455W",
+        "title": "The hacker playbook",
+        "category": "Penetration testing (Computer security)",
+        "authorname": "Peter Kim"
+    },
+    {
+        "id": "OL17341092W",
+        "title": "JavaScript and jQuery",
+        "category": "JavaScript (Computer program language)",
+        "authorname": "Jon Duckett"
+    },
+    {
+        "id": "OL1865013W",
+        "title": "Operating systems",
+        "category": "Operating systems (Computers)",
+        "authorname": "William Stallings"
+    },
+    {
+        "id": "OL57780W",
+        "title": "Networking for dummies",
+        "category": "Computer networks",
+        "authorname": "Doug Lowe"
+    },
+    {
+        "id": "OL3344261W",
+        "title": "The principles of computer hardware",
+        "category": "Electronic digital computers",
+        "authorname": "Alan Clements"
+    },
+    {
+        "id": "OL17801809W",
+        "title": "Deep Learning",
+        "category": "Machine learning",
+        "authorname": "Ian Goodfellow, Yoshua Bengio, Aaron Courville, Francis Bach"
+    },
+    {
+        "id": "OL16512736W",
+        "title": "Java Concurrency in Practice",
+        "category": "java programming language",
+        "authorname": "Brian Goetz, Joshua Bloch, Joseph Bowbeer, Doug Lea, David Holmes, Tim Peierls"
+    },
+    {
+        "id": "OL16805611W",
+        "title": "Quantum Computing Since Democritus",
+        "category": "COMPUTERS",
+        "authorname": "Scott Aaronson"
+    },
+    {
+        "id": "OL64843W",
+        "title": "Mastering today's software",
+        "category": "1-2-3 for Windows",
+        "authorname": "Edward G. Martin, Charles S. Parker, Charles E. Kee"
+    },
+    {
+        "id": "OL58572W",
+        "title": "PCs for Dummies",
+        "category": "Microcomputers",
+        "authorname": "Dan Gookin"
+    },
+    {
+        "id": "OL3759059W",
+        "title": "Desire Never Changes",
+        "category": "Fiction, Romance, Contemporary",
+        "authorname": "Penny Jordan"
+    },
+    {
+        "id": "OL1970691W",
+        "title": "Computer Networks",
+        "category": "Computer networks",
+        "authorname": "Andrew S. Tanenbaum, John David Wetherall, David J. Wetherall, Nickolas Feamster, David Wetherall, James F. Kurose, Keith W. Ross"
+    },
+    {
+        "id": "OL6029117W",
+        "title": "Dreaming in code",
+        "category": "Computer Technology",
+        "authorname": "Scott Rosenberg"
+    },
+    {
+        "id": "OL15170814W",
+        "title": "Excel VBA Programming For Dummies",
+        "category": "Computer Technology",
+        "authorname": "John Walkenbach"
+    },
+    {
+        "id": "OL4777624W",
+        "title": "An introduction to data structures with applications",
+        "category": "Computer programming",
+        "authorname": "Jean-Paul Tremblay, Paul Gordon Sorenson"
+    },
+    {
+        "id": "OL28618314W",
+        "title": "Kali Linux",
+        "category": "Linux (computer operating system)",
+        "authorname": "Wolf Halton, Bo Weaver"
+    },
+    {
+        "id": "OL2705899W",
+        "title": "Advanced programming in the Unix environment",
+        "category": "Operating systems (Computers)",
+        "authorname": "W. Richard Stevens, Stephen A. Rago"
+    },
+    {
+        "id": "OL4300550W",
+        "title": "The Dream Machine",
+        "category": "Microcomputers",
+        "authorname": "M. Mitchell Waldrop"
+    },
+    {
+        "id": "OL100779W",
+        "title": "The player of games",
+        "category": "OverDrive",
+        "authorname": "Iain Banks"
+    },
+    {
+        "id": "OL720124W",
+        "title": "C++",
+        "category": "C# (Computer program language)",
+        "authorname": "Herbert Schildt"
+    },
+    {
+        "id": "OL17451852W",
+        "title": "Raspberry Pi User Guide",
+        "category": "Raspberry Pi (Computer)",
+        "authorname": "Eben Upton"
+    },
+    {
+        "id": "OL58154W",
+        "title": "The inmates are running the asylum",
+        "category": "User interfaces (Computer systems)",
+        "authorname": "Cooper, Alan"
+    },
+    {
+        "id": "OL58233W",
+        "title": "Interactive Computing Series",
+        "category": "Time management",
+        "authorname": "Kenneth C. Laudon"
+    },
+    {
+        "id": "OL16509463W",
+        "title": "Practical Malware Analysis",
+        "category": "Computer viruses",
+        "authorname": "Michael Sikorski, Andrew Honig"
+    },
+    {
+        "id": "OL20842376W",
+        "title": "Computer Organization and Design RISC-V Edition",
+        "category": "Computer architecture",
+        "authorname": "David A. Patterson, John L. Hennessy"
+    },
+    {
+        "id": "OL13650817W",
+        "title": "Natural language processing and information retrieval",
+        "category": "Natural language processing (Computer science)",
+        "authorname": "Tanveer Siddiqui, U. S. Tiwary"
+    },
+    {
+        "id": "OL21228441W",
+        "title": "BTEC National for IT Practitioners",
+        "category": "Computer science",
+        "authorname": "Sharon Yull"
+    },
+    {
+        "id": "OL20766700W",
+        "title": "CGEIT Review Manual, 8th Edition",
+        "category": "Technology",
+        "authorname": "Isaca"
+    },
+    {
+        "id": "OL17840708W",
+        "title": "Weapons of Math Destruction",
+        "category": "math",
+        "authorname": "Cathy O'Neil"
+    },
+    {
+        "id": "OL2960005W",
+        "title": "Data communications, computer networks, and open systems",
+        "category": "Computer network protocols",
+        "authorname": "Fred Halsall"
+    },
+    {
+        "id": "OL26692123W",
+        "title": "CISM Review Manual 16th Edition",
+        "category": "Computers",
+        "authorname": "Isaca"
+    },
+    {
+        "id": "OL2973119W",
+        "title": "Hackers & painters",
+        "category": "Computer programmers",
+        "authorname": "Graham, Paul"
+    },
+    {
+        "id": "OL4474746W",
+        "title": "Digital computer fundamentals",
+        "category": "Electronic digital computers",
+        "authorname": "Thomas C. Bartee"
+    },
+    {
+        "id": "OL22297316W",
+        "title": "Django for Beginners",
+        "category": "Computer software",
+        "authorname": "William S. Vincent"
+    },
+    {
+        "id": "OL14873289W",
+        "title": "Python Cookbook",
+        "category": "Python (Computer program language)",
+        "authorname": "Alex Martelli, David Ascher, David M. Beazley, Brian K. Jones"
+    },
+    {
+        "id": "OL2036125W",
+        "title": "The Waite Group's Turbo C programming for the PC",
+        "category": "C (Computer program language)",
+        "authorname": "Robert Lafore"
+    },
+    {
+        "id": "OL19545956W",
+        "title": "Python Data Science Handbook",
+        "category": "Python (Computer program language)",
+        "authorname": "Jake VanderPlas"
+    },
+    {
+        "id": "OL2643054W",
+        "title": "IBM PC assembly language and programming",
+        "category": "Assembler language (Computer program language)",
+        "authorname": "Abel, Peter"
+    },
+    {
+        "id": "OL31821W",
+        "title": "Discrete Mathematics and Its Applications",
+        "category": "Mathematics",
+        "authorname": "Kenneth H. Rosen"
+    },
+    {
+        "id": "OL15120624W",
+        "title": "Understanding Computers 2000",
+        "category": "Computers.",
+        "authorname": "Deborah Morley, Charles S. Parker"
+    },
+    {
+        "id": "OL2905640W",
+        "title": "Secrets and Lies",
+        "category": "Computer networks",
+        "authorname": "Bruce Schneier"
+    },
+    {
+        "id": "OL725930W",
+        "title": "Python, The Complete Reference",
+        "category": "Programming languages (Electronic computers)",
+        "authorname": "Martin C. Brown"
+    },
+    {
+        "id": "OL16420058W",
+        "title": "Continuous Delivery",
+        "category": "Development",
+        "authorname": "Jez Humble, David Farley"
+    },
+    {
+        "id": "OL19547285W",
+        "title": "Linux Bible",
+        "category": "Linux (computer operating system)",
+        "authorname": "Christopher Negus"
+    },
+    {
+        "id": "OL26124818W",
+        "title": "Crafting Interpreters",
+        "category": "Computer software",
+        "authorname": "Robert Nystrom"
+    },
+    {
+        "id": "OL6816375W",
+        "title": "Introduction to automata theory, languages, and computation",
+        "category": "Computational complexity",
+        "authorname": "John E. Hopcroft, Jeffrey D. Ullman, Rajeev Motwani"
+    },
+    {
+        "id": "OL3523179W",
+        "title": "Software testing techniques",
+        "category": "Testing",
+        "authorname": "Boris Beizer"
+    },
+    {
+        "id": "OL58552W",
+        "title": "Laptops For Dummies (For Dummies (Computer/Tech))",
+        "category": "Laptop computers",
+        "authorname": "Dan Gookin, Paul Wallbank, Sandra Geisler"
+    },
+    {
+        "id": "OL20720686W",
+        "title": "C Programming Absolute Beginner's Guide",
+        "category": "C (computer program language)",
+        "authorname": "Greg Perry"
+    },
+    {
+        "id": "OL9273285W",
+        "title": "Software Quality Assurance",
+        "category": "Computer software, quality control",
+        "authorname": "Nina S. Godbole"
+    },
+    {
+        "id": "OL9228029W",
+        "title": "Teaching and learning with technology",
+        "category": "Audio-visual materials",
+        "authorname": "Judy Lever-Duffy, Jean B. McDonald, Al P. Mizell"
+    },
+    {
+        "id": "OL6030812W",
+        "title": "Design Patterns",
+        "category": "Reusability",
+        "authorname": "Erich Gamma, John Vlissides, Richard Helm, Ralph Johnson, Johnson, Ralph"
+    },
+    {
+        "id": "OL1958820W",
+        "title": "The psychology of computer programming",
+        "category": "Computer programming",
+        "authorname": "Gerald M. Weinberg"
+    },
+    {
+        "id": "OL15835594W",
+        "title": "Crypto",
+        "category": "Geheimschrift",
+        "authorname": "Steven Levy"
+    },
+    {
+        "id": "OL3939153W",
+        "title": "Advanced concepts in operating systems",
+        "category": "Operating systems (Computers)",
+        "authorname": "Mukesh Singhal"
+    },
+    {
+        "id": "OL2938928W",
+        "title": "The Little Schemer",
+        "category": "LISP (Computer program language)",
+        "authorname": "Daniel P. Friedman, Matthias Felleisen"
+    },
+    {
+        "id": "OL21337740W",
+        "title": "Technology for Success",
+        "category": "Computer science",
+        "authorname": "Jennifer Campbell, Barbara Clemens, Steven Freund, Mark Frydenberg, Ralph Hooper"
+    },
+    {
+        "id": "OL9486352W",
+        "title": "JavaScript",
+        "category": "JavaScript (Computer program language)",
+        "authorname": "Douglas Crockford, Ke luo ke fu de, Yan xue kun, Douglas Crockford"
+    },
+    {
+        "id": "OL13544137W",
+        "title": "Schaum's outline of operating systems",
+        "category": "Operating systems (Computers)",
+        "authorname": "J. Archer Harris."
+    },
+    {
+        "id": "OL1961692W",
+        "title": "Test-driven development",
+        "category": "Computer software",
+        "authorname": "Kent Beck"
+    },
+    {
+        "id": "OL15174074W",
+        "title": "The Art of Intrusion",
+        "category": "Computer Technology",
+        "authorname": "Kevin D. Mitnick, William L. Simon"
+    },
+    {
+        "id": "OL17635845W",
+        "title": "The Art of Invisibility",
+        "category": "Personal Computers",
+        "authorname": "Kevin D. Mitnick, Robert Vamosi"
+    },
+    {
+        "id": "OL20016475W",
+        "title": "The hacker playbook 2",
+        "category": "Penetration testing (Computer security)",
+        "authorname": "Peter Kim"
+    },
+    {
+        "id": "OL1920211W",
+        "title": "Discrete mathematics",
+        "category": "Computer science",
+        "authorname": "Richard Johnsonbaugh"
+    },
+    {
+        "id": "OL16140029W",
+        "title": "Cloud computing",
+        "category": "Cloud computing",
+        "authorname": "Rajkumar Buyya, James Broberg"
+    },
+    {
+        "id": "OL9029736W",
+        "title": "Fundamentals of Programming using Java",
+        "category": "Java (computer program language)",
+        "authorname": "Edward Currie"
+    },
+    {
+        "id": "OL3509435W",
+        "title": "Data structures and algorithms",
+        "category": "Algorithmes",
+        "authorname": "Alfred V. Aho, John E. Hopcroft, Jeffrey D. Ullman"
+    },
+    {
+        "id": "OL2676164W",
+        "title": "Fundamentals of data structures in C",
+        "category": "C (Computer program language)",
+        "authorname": "Ellis Horowitz"
+    },
+    {
+        "id": "OL1701004W",
+        "title": "Programming Perl",
+        "category": "Perl (Computer program language)",
+        "authorname": "Larry Wall, Tom Christiansen, Jon Orwant, Christiansen, WALL"
+    },
+    {
+        "id": "OL17357597W",
+        "title": "Introduction to Machine Learning with Python",
+        "category": "Programming languages (Electronic computers)",
+        "authorname": "Andreas C. Mueller, Sarah Guido"
+    },
+    {
+        "id": "OL94732W",
+        "title": "Java software solutions",
+        "category": "Java (Computer program language)",
+        "authorname": "Lewis, John, John E. Lewis Ph. D., William Loftus"
+    },
+    {
+        "id": "OL20803505W",
+        "title": "The Definitive Guide to DAX",
+        "category": "Microsoft excel (computer program)",
+        "authorname": "Marco Russo, Alberto Ferrari"
+    },
+    {
+        "id": "OL1753981W",
+        "title": "C how to program",
+        "category": "C (Computer program language)",
+        "authorname": "Harvey M. Deitel, Paul J. Deitel, Abbey Deitel"
+    },
+    {
+        "id": "OL16925984W",
+        "title": "Intelligent Robotics and Applications",
+        "category": "Computer vision",
+        "authorname": "Honghai Liu"
+    }
+]
