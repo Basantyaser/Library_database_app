@@ -13,6 +13,10 @@ class App(ctk.CTk):
         sidebar = ctk.CTkFrame(self, width=200)
         sidebar.pack(side="left", fill="y")
 
+        sidebar_title = ctk.CTkLabel(sidebar, text="Library")
+        theme.label_title(sidebar_title)
+        sidebar_title.pack(pady=20)
+
         page_classes = {
             "Books": BooksPage,
             "Borrow Books": BorrowedBooksPage
@@ -20,10 +24,11 @@ class App(ctk.CTk):
 
         for name in page_classes:
             btn = ctk.CTkButton(
-                sidebar, text=name, anchor="w", fg_color="transparent",
+                sidebar, text=name, anchor="w",
                 command=lambda n=name: self.show_page(n),
             )
-            btn.pack(fill="x")
+            theme.button_secondary(btn)
+            btn.pack(fill="x", padx=10, pady=3)
 
         self.content = ctk.CTkFrame(self)
         self.content.pack(side="left", fill="both", expand=True)
@@ -47,6 +52,11 @@ class App(ctk.CTk):
 class BooksPage(ctk.CTkFrame):
     def __init__(self, parent):
         super().__init__(parent)
+
+        #title
+        title = ctk.CTkLabel(self, text="Books")
+        theme.label_title(title)
+        title.pack(anchor="w", padx=10, pady=(10, 0))
 
         #top bar
         top_bar = ctk.CTkFrame(self, fg_color="transparent")
@@ -90,7 +100,7 @@ class BooksPage(ctk.CTkFrame):
         for widget in self.table.winfo_children():
             widget.destroy()
 
-            # one row per book
+        # one row per book
         for r, book in enumerate(books):
             # the keys must match what get_books() returns
             for c, key in enumerate(["id", "name", "category", "author"]):
@@ -143,8 +153,11 @@ class BooksPage(ctk.CTkFrame):
 class BorrowedBooksPage(ctk.CTkFrame):
     def __init__(self, parent):
         super().__init__(parent)
-        label = ctk.CTkLabel(self, text="Borrowed Books Page")
-        label.pack(pady=20, padx=20)
+
+        #title
+        title = ctk.CTkLabel(self, text="Borrowed Books")
+        theme.label_title(title)
+        title.pack(anchor="w", padx=10, pady=10)
 
 
 
