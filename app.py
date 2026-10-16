@@ -10,43 +10,18 @@ class App(ctk.CTk):
         self.title("Library Management System")
         self.geometry("1080x500")
 
-        sidebar = ctk.CTkFrame(self, width=200)
-        sidebar.pack(side="left", fill="y")
-
-        page_classes = {
-            "Books": BooksPage,
-            "Borrow Books": BorrowedBooksPage
-        }
-
-        for name in page_classes:
-            btn = ctk.CTkButton(
-                sidebar, text=name, anchor="w", fg_color="transparent",
-                command=lambda n=name: self.show_page(n),
-            )
-            btn.pack(fill="x")
-
-        self.content = ctk.CTkFrame(self)
-        self.content.pack(side="left", fill="both", expand=True)
-
-        self.pages = {}
-
-        for name, page_class in page_classes.items():
-            self.pages[name] = page_class(self.content)
-
-        self.show_page("Books")
-
-    def show_page(self, name):
-        for page in self.pages.values():
-            page.pack_forget()
-        self.pages[name].pack(fill="both", expand=True)
-
-
-
+        books_page = BooksPage(self)
+        books_page.pack(fill="both", expand=True)
 
 
 class BooksPage(ctk.CTkFrame):
     def __init__(self, parent):
         super().__init__(parent)
+
+        #title
+        title = ctk.CTkLabel(self, text="Books")
+        theme.label_title(title)
+        title.pack(anchor="w", padx=10, pady=(10, 0))
 
         #top bar
         top_bar = ctk.CTkFrame(self, fg_color="transparent")
@@ -90,10 +65,10 @@ class BooksPage(ctk.CTkFrame):
         for widget in self.table.winfo_children():
             widget.destroy()
 
-            # one row per book
+        # one row per book
         for r, book in enumerate(books):
             # the keys must match what get_books() returns
-            for c, key in enumerate(["id", "name", "category", "author"]):
+            for c, key in enumerate(["id", "title", "category", "authorname"]):
                 label = ctk.CTkLabel(self.table, text=book[key], anchor="w")
                 theme.label_small(label)
                 label.grid(row=r, column=c, sticky="w", padx=5, pady=6)
@@ -116,12 +91,9 @@ class BooksPage(ctk.CTkFrame):
             delete_btn.pack(side="left")
 
     def get_books(self):
-        # TODO : حط داتا بدل دول
-        return [
-            {"id": 1001, "name": "Independent Women", "category": "Self development", "author": "Elizabeth Hailey"},
-            {"id": 1002, "name": "Never Ending Sky", "category": "Novels", "author": "Joseph Kirland"},
-            {"id": 1003, "name": "Harry Potter", "category": "Novels", "author": "J. K. Rowling"},
-        ]
+        #reads the json :O
+        with open("bookrecords.json", "r", encoding="utf-8") as file:
+            return json.load(file)
 
     def search(self):
         text = self.search_entry.get()
@@ -138,13 +110,6 @@ class BooksPage(ctk.CTkFrame):
 
 
 
-
-
-class BorrowedBooksPage(ctk.CTkFrame):
-    def __init__(self, parent):
-        super().__init__(parent)
-        label = ctk.CTkLabel(self, text="Borrowed Books Page")
-        label.pack(pady=20, padx=20)
 
 
 
