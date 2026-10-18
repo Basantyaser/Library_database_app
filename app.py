@@ -133,16 +133,37 @@ class DataBase:
 
     def create_books_table(self):
         # Create your books table with a unique ISBN or book ID
-        pass
+        # Create the books table
+        self.cursor.execute("""
+            CREATE TABLE IF NOT EXISTS books (
+                id TEXT PRIMARY KEY,
+                title TEXT NOT NULL,
+                category TEXT,
+                authorname TEXT
+            )
+        """)
+        self.conn.commit()
 
     def create_settings_table(self):
         # Create app_settings table
         # Columns: setting (PRIMARY KEY), value
-        pass
+        
+         self.cursor.execute("""
+         CREATE TABLE IF NOT EXISTS app_settings (
+            setting TEXT PRIMARY KEY,
+            value INTEGER
+           )
+           """)
+         self.conn.commit()
 
     def initialize_import_flag(self):
         # Insert books_imported = 0 only if it doesn't exist
-        pass
+        self.cursor.execute("""
+        INSERT OR IGNORE INTO app_settings (setting, value)
+        VALUES ('books_imported', 0)
+         """)
+        self.conn.commit()
+        
 
     def load_json(self, filename):
         # Open JSON file and return its contents
@@ -169,5 +190,9 @@ class DataBase:
 
 
 if __name__ == "__main__":
+    db = DataBase("library.db")
+    db.create_database()
+    db.close()
+
     app = App()
     app.mainloop()
