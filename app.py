@@ -117,7 +117,7 @@ class BooksPage(ctk.CTkFrame):
 
 
 class DataBase:
-    def __init__(self, database):
+    def __init__(self, database,filename="bookrecords.json"):
         # 1. Connect to the database
         self.conn = sqlite3.connect(database)
         self.cursor = self.conn.cursor()
@@ -167,22 +167,55 @@ class DataBase:
 
     def load_json(self, filename):
         # Open JSON file and return its contents
-        pass
+        with open(filename, "r") as file:
+             data = json.load(file)
+             return data
 
     def is_imported(self):
-        # Read books_imported from app_settings
-        # Return True or False
-        pass
+        # Read books_imported from app_settings       
+        self.cursor.execute("""SELECT value FROM app_settings WHERE setting = 'books_imported'""")
+        result = self.cursor.fetchone()
+         # Return True or False
+        if result and result[0] == 1:
+            return True
+        return False
 
     def import_books(self, filename):
         # 1. Check whether the books have already been imported
         # 2. If imported, stop
+        if self.is_imported():
+            return 
         # 3. Load the JSON data
         # 4. Loop through the list of book dictionaries
+        books_data = self.load_json(filename)
+        try:
+            for book in books_data:
         # 5. Insert books into the database
+                self.cursor.execute(
+                    """
+                    INSERT OR IGNORE INTO books (id, title, category, authorname)
+                    VALUES (?, ?, ?, ?)
+                """,
+                    (
+                        book.get("id"),
+                        book.get("title"),
+                        book.get("category"),
+                        book.get("authorname"),
+                    ),
+                )
         # 6. Set books_imported = 1
+            self.cursor.execute(
+                """
+                UPDATE app_settings
+                SET value = 1
+                WHERE setting = 'books_imported'
+            """
+            )
         # 7. Commit everything together in a transaction
-        pass
+            self.conn.commit()
+        except Exception as e:
+            self.conn.rollback()
+        raise e
 
     def close(self):
         # Close the database connection
