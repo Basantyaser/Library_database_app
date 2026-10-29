@@ -1,5 +1,6 @@
 
 # Python
+library.db
 __pycache__/
 *.py[cod]
 .venv/

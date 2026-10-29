@@ -1,29 +1,37 @@
+import os
 import sqlite3
 import customtkinter as ctk
 
-import theme 
+import theme
 import json
 
+#makes sure the paths are correct
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+JSON_FILE = os.path.join(BASE_DIR, "bookrecords.json")
+DB_FILE = os.path.join(BASE_DIR, "library.db")
+
+
 class App(ctk.CTk):
-    def __init__(self):
+    def __init__(self, db):
         super().__init__()
         self.title("Library Management System")
         self.geometry("1080x500")
 
-        books_page = BooksPage(self)
+        books_page = BooksPage(self, db)
         books_page.pack(fill="both", expand=True)
 
 
 class BooksPage(ctk.CTkFrame):
-    def __init__(self, parent):
+    def __init__(self, parent, db):
         super().__init__(parent)
+        self.db = db
 
-        #title
+        # title
         title = ctk.CTkLabel(self, text="Books")
         theme.label_title(title)
         title.pack(anchor="w", padx=10, pady=(10, 0))
 
-        #top bar
+        # top bar
         top_bar = ctk.CTkFrame(self, fg_color="transparent")
         top_bar.pack(fill="x", padx=10, pady=10)
 
@@ -39,7 +47,7 @@ class BooksPage(ctk.CTkFrame):
         theme.button_primary(add_btn)
         add_btn.pack(side="left")
 
-        #table header
+        # table header
         columns = ["Book ID", "Book name", "Category", "Author", "Actions"]
 
         header = ctk.CTkFrame(self)
@@ -51,7 +59,7 @@ class BooksPage(ctk.CTkFrame):
             theme.label_default(label)
             label.grid(row=0, column=i, sticky="w", padx=5, pady=5)
 
-        #table
+        # table
         self.table = ctk.CTkScrollableFrame(self)
         self.table.pack(fill="both", expand=True, padx=10, pady=10)
 
@@ -91,9 +99,8 @@ class BooksPage(ctk.CTkFrame):
             delete_btn.pack(side="left")
 
     def get_books(self):
-        #reads the json :O
-        with open("bookrecords.json", "r", encoding="utf-8") as file:
-            return json.load(file)
+        #now reads the database instead of the json
+        return self.db.get_all_books()
 
     def search(self):
         text = self.search_entry.get()
@@ -109,15 +116,8 @@ class BooksPage(ctk.CTkFrame):
         print("delete book", book_id)
 
 
-
-
-
-
-
-
-
 class DataBase:
-    def __init__(self, database,filename="bookrecords.json"):
+    def __init__(self, database, filename="bookrecords.json"):
         # 1. Connect to the database
         self.conn = sqlite3.connect(database)
         self.cursor = self.conn.cursor()
@@ -147,14 +147,14 @@ class DataBase:
     def create_settings_table(self):
         # Create app_settings table
         # Columns: setting (PRIMARY KEY), value
-        
-         self.cursor.execute("""
-         CREATE TABLE IF NOT EXISTS app_settings (
-            setting TEXT PRIMARY KEY,
-            value INTEGER
-           )
-           """)
-         self.conn.commit()
+
+        self.cursor.execute("""
+            CREATE TABLE IF NOT EXISTS app_settings (
+                setting TEXT PRIMARY KEY,
+                value INTEGER
+            )
+        """)
+        self.conn.commit()
 
     def initialize_import_flag(self):
         # Insert books_imported = 0 only if it doesn't exist
@@ -163,19 +163,17 @@ class DataBase:
         VALUES ('books_imported', 0)
          """)
         self.conn.commit()
-        
 
     def load_json(self, filename):
         # Open JSON file and return its contents
-        with open(filename, "r") as file:
-             data = json.load(file)
-             return data
+        with open(filename, "r", encoding="utf-8") as file:
+            return json.load(file)
 
     def is_imported(self):
-        # Read books_imported from app_settings       
+        # Read books_imported from app_settings
         self.cursor.execute("""SELECT value FROM app_settings WHERE setting = 'books_imported'""")
         result = self.cursor.fetchone()
-         # Return True or False
+        # Return True or False
         if result and result[0] == 1:
             return True
         return False
@@ -184,13 +182,13 @@ class DataBase:
         # 1. Check whether the books have already been imported
         # 2. If imported, stop
         if self.is_imported():
-            return 
-        # 3. Load the JSON data
+            return
+            # 3. Load the JSON data
         # 4. Loop through the list of book dictionaries
         books_data = self.load_json(filename)
         try:
             for book in books_data:
-        # 5. Insert books into the database
+                # 5. Insert books into the database
                 self.cursor.execute(
                     """
                     INSERT OR IGNORE INTO books (id, title, category, authorname)
@@ -203,7 +201,7 @@ class DataBase:
                         book.get("authorname"),
                     ),
                 )
-        # 6. Set books_imported = 1
+            # 6. Set books_imported = 1
             self.cursor.execute(
                 """
                 UPDATE app_settings
@@ -211,11 +209,21 @@ class DataBase:
                 WHERE setting = 'books_imported'
             """
             )
-        # 7. Commit everything together in a transaction
+            # 7. Commit everything together in a transaction
             self.conn.commit()
         except Exception as e:
             self.conn.rollback()
-        raise e
+            raise e
+
+    def get_all_books(self):
+        # Return every book as a list of dicts (the format show_books uses)
+        self.cursor.execute(
+            "SELECT id, title, category, authorname FROM books ORDER BY rowid"
+        )
+        return [
+            {"id": row[0], "title": row[1], "category": row[2] or "", "authorname": row[3] or ""}
+            for row in self.cursor.fetchall()
+        ]
 
     def close(self):
         # Close the database connection
@@ -223,9 +231,10 @@ class DataBase:
 
 
 if __name__ == "__main__":
-    db = DataBase("library.db")
-    db.create_database()
-    db.close()
-
-    app = App()
-    app.mainloop()
+    db = DataBase(DB_FILE)
+    try:
+        db.import_books(JSON_FILE)
+        app = App(db)
+        app.mainloop()
+    finally:
+        db.close()# runs when the window closes, or if something fails
